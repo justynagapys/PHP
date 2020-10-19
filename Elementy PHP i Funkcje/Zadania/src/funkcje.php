@@ -17,8 +17,9 @@
       funkcjaZArgumentami("Justyna", "Gapys");
 
     function funkcjaZReferencja(&$imie){
+      $imie="Jan";
     }
-    $imieDoReferencji = "Jan";
+    $imieDoReferencji = "Adam";
     funkcjaZReferencja($imieDoReferencji);
     echo("$imieDoReferencji zostało zmienione poprzez referencję do zmiennej.").'</br>'; 
 
@@ -28,7 +29,7 @@
       foreach($tab as $i){
         $count++;
       }
-      echo $count.'</br>';;
+      echo $count.'</br>';
     }
     funckjaZNieznanaLiczbaArgumentow(2,6,9,4,5,9);
     funckjaZNieznanaLiczbaArgumentow(1,2,3,4,5,6,7,8,9,10);
