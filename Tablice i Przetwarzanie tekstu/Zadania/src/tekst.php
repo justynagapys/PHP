@@ -34,5 +34,16 @@
     echo $tekstDoWybrania;
     echo "</br>";
 
+    echo "</br>";
+
+    $tekstDoZmiany = "cytryna";
+    $tekstPoZmianie = str_replace("cytryna", "kiwi", $tekstDoZmiany);
+    echo $tekstPoZmianie;
+    echo "</br>";
+
+    $tekstDoPodzialu = 'Ten tekst moze byc naprawde dlugi jezeli chcesz!';
+    echo wordwrap($tekstDoPodzialu, 20, "</br>");
+    echo "</br>";
+
   ?>
 <div>
