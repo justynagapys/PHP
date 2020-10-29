@@ -37,5 +37,18 @@
     sprawdzCzyJest("czwarty", $tablica);
     sprawdzCzyJest("piąty", $tablica);
 
+    $imiona = array("Jan", "Monika", "Dominik", "Patryk");
+    natcasesort($imiona);
+    print_r($imiona);
+    echo "</br>";
+
+    $tablicaLiczbowa = array(1, 2, 4, 9, 8, 7, 6);
+    rsort($tablicaLiczbowa);
+    print_r($tablicaLiczbowa);
+    echo "</br>";
+    shuffle($tablicaLiczbowa);
+    print_r($tablicaLiczbowa);
+    echo "</br>";
+
   ?>
 <div>
