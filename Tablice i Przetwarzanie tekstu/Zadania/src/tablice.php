@@ -37,6 +37,8 @@
     sprawdzCzyJest("czwarty", $tablica);
     sprawdzCzyJest("piąty", $tablica);
 
+    echo "</br>";
+
     $imiona = array("Jan", "Monika", "Dominik", "Patryk");
     natcasesort($imiona);
     print_r($imiona);
@@ -48,6 +50,19 @@
     echo "</br>";
     shuffle($tablicaLiczbowa);
     print_r($tablicaLiczbowa);
+    echo "</br>";
+
+    echo "</br>";
+
+    $owoce = array('a'=>'ananas', 'b'=>'banan', 'c'=>'cytryna');
+    $warzywa = array('m'=>'marchew', 'z'=>'ziemniak');
+    $market=array_merge($owoce, $warzywa);
+    print_r($market);
+    echo "</br>";
+
+    $male = array('wszystkie', 'te', 'slowa', 'sa', 'wielkimi', 'literami');
+    $duze = array_map("strtoupper",$male);
+    print_r($duze);
     echo "</br>";
 
   ?>
