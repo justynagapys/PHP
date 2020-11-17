@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Składowe witryny</title>
+    <link href="https://unpkg.com/tailwindcss@1.8.10/dist/tailwind.css" rel="stylesheet">
 </head>
 
 <body>
@@ -66,6 +67,26 @@
     <div>
         <?php
         include 'src/ciasteczko.php';
+        ?>
+    </div>
+
+    <form action="src/sesjaPOST.php" method="POST">
+        <div>
+            Sesja
+        </div>
+        <div>
+            <label for="nazwisko">Nazwisko: </label>
+            <input name="nazwisko">
+        </div>
+        <div>
+            <button type="submit" name="zatwierdz" value="zatwierdzenie">
+                Wyślij
+            </button>
+        </div>
+    </form>
+    <div>
+        <?php
+        include 'src/sesja.php';
         ?>
     </div>
 </body>
