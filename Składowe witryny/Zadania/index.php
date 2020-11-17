@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Składowe witryny</title>
 </head>
+
 <body>
-    <form method="GET">
+    <form action="src/potwierdzenieGET.php" method="GET">
         <div>
             metoda GET
         </div>
@@ -28,4 +30,5 @@
         </button>
     </form>
 </body>
+
 </html>
