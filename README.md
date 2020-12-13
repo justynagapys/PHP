@@ -3,8 +3,6 @@
 
 A repository created for the purposes of classes at the university, monitoring progress in programming in PHP.
 
-Exercises based on the book **"Laravel. Wstęp do programowania aplikacji internetowych"** written by Paweł Kamiński.
-
 ...
 
 Exercises have been written using **Visual Studio Code**.
